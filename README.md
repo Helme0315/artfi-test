@@ -69,3 +69,13 @@ Parameters
 }
 
 You can get the errMsg in the data object in response
+
+### Sign the rawTx
+You will receive response from mint_req & mint_err_req. 
+Then user must sign with his wallet with response from backend.
+And call the tx.seraizlie() function.
+Then you will get the hex string like as address.
+Last, you must send this serialization hex string with provider on frontend.
+
+If you need more details, let me know.
+Thanks!
